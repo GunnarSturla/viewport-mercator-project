@@ -2,13 +2,11 @@ export default [{
   name: 'Documentation',
   path: '/documentation',
   data: [{
-    name: 'Overview',
-    children: [{
-      markdown: require('../../docs/README.md')
-    }, {
-      name: 'What\'s New',
-      markdown: require('../../docs/whats-new.md')
-    }]
+  //   name: 'Overview',
+  //   markdown: require('../../docs/README.md')
+  // }, {
+    name: 'What\'s New',
+    markdown: require('../../docs/whats-new.md')
   }, {
     name: 'Get started',
     children: [{

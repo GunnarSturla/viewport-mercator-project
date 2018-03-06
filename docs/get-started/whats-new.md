@@ -1,11 +1,19 @@
 # What's New
 
-## v5.0 (In Progress, Release Date TBA)
-- Use math.gl library (smaller dependency than gl-matrix + enables some code to be dropped)
-- Documentation website matching other frameworks in the same suite.
-- Includes a set of primitive web mercator utilities
-   - (classes here and in other repos like deck.gl use these for increased code sharing and smaller exectables)
-- `project` and `unproject` methods deal with 3d pixel coordinates (depth).
+## v5.1
+
+Release date: TBD
+
+* New `getProjectionParameters` utility - Returns parameters enabling the application to directly create projection matrices instead of using `getProjectionMatrix`. This can for instance be used to create orthographic projections, and to switch between projection modes.
+
+
+## v5.0
+
+- **Improved distance scales** - Second order polynomial approximations are now available.
+- **3D Projection** - `project` and `unproject` methods now deal with 3d pixel coordinates (depth).
+- **Improved documentation** - This website now matches other frameworks in the vis.gl framework suite.
+- **Use math.gl library** - Smaller dependency than `gl-matrix`.
+- **primitive web mercator utilities** - A more primitive set of utility functions is now available. Classes here and in other repos like deck.gl use these for increased code sharing and smaller exectables.
 
 
 ## v4.1
